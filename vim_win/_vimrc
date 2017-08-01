@@ -38,7 +38,7 @@ filetype plugin indent on
 
 if has('gui_running')
 "	set guifont=Consolas:h11
-	set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h11
+	set guifont=DejaVu\ Sans\ Mono:h12
 	colorscheme lucius
 	LuciusLight
 	set lines=999 columns=999
