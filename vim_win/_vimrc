@@ -31,6 +31,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'sukima/xmledit'
 Plugin 'jonathanfilip/vim-lucius'
 Plugin 'kien/ctrlp.vim'
+Plugin 'tpope/vim-sensible'
 "Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()
