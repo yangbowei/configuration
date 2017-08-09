@@ -2,7 +2,7 @@
 
 1. Install [Vim](http://www.vim.org/download.php)
 
-2. Install [curl](https://curl.haxx.se/download.html#Win64) and add it to path
+2. (Optional) Install [curl](https://curl.haxx.se/download.html#Win64) and add it to path
 
 3. ```shell
    cd %USERPROFILE%
