@@ -24,17 +24,28 @@ map <F3> :NERDTreeToggle<CR>
 set nocompatible
 filetype off
 
-set rtp+=$HOME/vimfiles/bundle/Vundle.vim/
-call vundle#begin('$USERPROFILE/vimfiles/bundle/')
+" Use vim-plug to manage plugins
+call plug#begin('~/.vim/plugged')
 
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'sukima/xmledit'
-Plugin 'jonathanfilip/vim-lucius'
-Plugin 'kien/ctrlp.vim'
+Plug 'jonathanfilip/vim-lucius'
+Plug 'tpope/vim-sensible'
+Plug 'jiangmiao/auto-pairs'
+Plug 'scrooloose/nerdcommenter'
+
+call plug#end()
+
+"set rtp+=~/.vim/bundle/Vundle.vim/
+"call vundle#begin('$USERPROFILE/vimfiles/bundle/')
+
+"Plugin 'VundleVim/Vundle.vim'
+"Plugin 'sukima/xmledit'
+"Plugin 'jonathanfilip/vim-lucius'
+"Plugin 'kien/ctrlp.vim'
+"Plugin 'tpope/vim-sensible'
 "Plugin 'Valloric/YouCompleteMe'
 
-call vundle#end()
-filetype plugin indent on
+"call vundle#end()
+"filetype plugin indent on
 
 if has('gui_running')
 "	set guifont=Consolas:h11
